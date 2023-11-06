@@ -1,0 +1,12 @@
+name: TempOP
+version: '${project.version}'
+main: me.kamiksss.tempop.TempOP
+api-version: '1.19'
+
+commands:
+  tempop:
+    description: Gives temporary administrator privileges
+    default: op
+    usage: /<command> <player> <time>
+    aliases:
+      - top
